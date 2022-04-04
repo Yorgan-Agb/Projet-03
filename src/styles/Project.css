@@ -1,0 +1,24 @@
+.header {
+  text-align: center;
+}
+.statusFilter {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.allStatus {
+  display: flex;
+  width: 15vw;
+  justify-content: center;
+  height: 5vh;
+  background-color: var(--grey);
+  color: white;
+  transition: 0.5s;
+  align-items: center;
+}
+.allStatus.active {
+  background-color: var(--main-dark);
+}
+.allStatus:hover {
+  background-color: var(--darkgrey);
+}
