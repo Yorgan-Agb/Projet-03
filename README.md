@@ -17,7 +17,7 @@
   
   <h2> Dans le répertoire du projet, vous pouvez exécuter : </h2>
   <li>npm install</li>
-  <li>nodemon start</li>
+  <li>npm start</li>
   <p>Ces commandes installent les dépendances et démarrent l'application en mode développement.</p>
 </div>
 
